@@ -39,7 +39,7 @@ namespace CSharp_tasks
             }
         }
 
-        static bool AskContinue()
+        static bool AskContinue() // Продолжение работы калькулятора
         {
             string command = ""; // Хранилище для консольного ввода
             
