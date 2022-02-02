@@ -13,3 +13,6 @@
 5. [Оператор switch]()
 6. [Циклы]()
 
+![image](https://user-images.githubusercontent.com/78896451/152150660-78454b6a-d80d-47a6-a420-1cf2799cc8cb.png)
+
+### ©️ Konsilerinos
