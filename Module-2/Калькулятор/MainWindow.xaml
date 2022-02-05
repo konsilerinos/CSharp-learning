@@ -1,0 +1,66 @@
+﻿<Window x:Class="WPF_task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_task"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+
+        <!-- Столбцы -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Строки -->
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!-- Кнопки -->
+
+        <Button Grid.Row="1" Grid.Column="0" x:Name="buttonMin" Click="ButtonActionClicked">min</Button>
+        <Button Grid.Row="1" Grid.Column="1" x:Name="buttonMax" Click="ButtonActionClicked">max</Button>
+        <Button Grid.Row="1" Grid.Column="2" x:Name="buttonAvg" Click="ButtonActionClicked">avg</Button>
+        <Button Grid.Row="1" Grid.Column="3" x:Name="buttonPow" Click="ButtonActionClicked">x^y</Button>
+
+        <Button Grid.Row="2" Grid.Column="0" x:Name="buttonCE" Click="ButtonCEClicked">CE</Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="buttonC" Click="ButtonCClicked">C</Button>
+        <Button Grid.Row="2" Grid.Column="2" x:Name="buttonDelete" Content="&lt;=" Click="ButtonDeleteClicked"></Button>
+        <Button Grid.Row="2" Grid.Column="3" x:Name="buttonDiv" Click="ButtonActionClicked">/</Button>
+
+        <Button Grid.Row="3" Grid.Column="0" x:Name="button7" Click="ButtonNumClicked">7</Button>
+        <Button Grid.Row="3" Grid.Column="1" x:Name="button8" Click="ButtonNumClicked">8</Button>
+        <Button Grid.Row="3" Grid.Column="2" x:Name="button9" Click="ButtonNumClicked">9</Button>
+        <Button Grid.Row="3" Grid.Column="3" x:Name="buttonMul" Click="ButtonActionClicked">*</Button>
+
+        <Button Grid.Row="4" Grid.Column="0" x:Name="button4" Click="ButtonNumClicked">4</Button>
+        <Button Grid.Row="4" Grid.Column="1" x:Name="button5" Click="ButtonNumClicked">5</Button>
+        <Button Grid.Row="4" Grid.Column="2" x:Name="button6" Click="ButtonNumClicked">6</Button>
+        <Button Grid.Row="4" Grid.Column="3" x:Name="buttonSub" Click="ButtonActionClicked">-</Button>
+
+        <Button Grid.Row="5" Grid.Column="0" x:Name="button1" Click="ButtonNumClicked">1</Button>
+        <Button Grid.Row="5" Grid.Column="1" x:Name="button2" Click="ButtonNumClicked">2</Button>
+        <Button Grid.Row="5" Grid.Column="2" x:Name="button3" Click="ButtonNumClicked">3</Button>
+        <Button Grid.Row="5" Grid.Column="3" x:Name="buttonAdd" Click="ButtonActionClicked">+</Button>
+
+        <Button Grid.Row="6" Grid.Column="0" x:Name="buttonPM" Click="PMButtonClicked">+/-</Button>
+        <Button Grid.Row="6" Grid.Column="1" x:Name="button0" Click="ButtonNumClicked">0</Button>
+        <Button Grid.Row="6" Grid.Column="2" x:Name="buttonPoint" Click="PointButtonClicked">.</Button>
+        <Button Grid.Row="6" Grid.Column="3" x:Name="buttonEqual" Click="ButtonEqualClicked">=</Button>
+
+        <!-- Текстовое поле -->
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" TextAlignment="Right" VerticalAlignment="Bottom" FontSize="40" x:Name="resultTextBox">0</TextBox>
+
+    </Grid>
+</Window>
