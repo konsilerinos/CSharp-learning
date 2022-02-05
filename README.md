@@ -15,8 +15,8 @@
 
 ### Модуль 2. Калькулятор на WPF
 
-1. [Калькулятор (директория)]()
-2. [Строки]()
+1. [Калькулятор (директория)](https://github.com/konsilerinos/CSharp-learning/tree/main/Module-2/%D0%9A%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80)
+2. [Строки](https://github.com/konsilerinos/CSharp-learning/blob/main/Module-2/%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8.cs)
 
 ![image](https://user-images.githubusercontent.com/78896451/152150660-78454b6a-d80d-47a6-a420-1cf2799cc8cb.png)
 
