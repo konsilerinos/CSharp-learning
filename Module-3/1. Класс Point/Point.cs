@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CSharp_tasks
+{
+    class Point
+    {
+        public int x;
+        public int y;
+        public char c;
+
+        public void Draw()
+        {
+            Console.SetCursorPosition(x, y);    // Установка курсора по координатам
+            Console.Write(c);                   // Печать символа
+        }
+    }
+}
