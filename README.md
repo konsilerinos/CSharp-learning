@@ -26,6 +26,6 @@
 4. [Класс Square](https://github.com/konsilerinos/CSharp-learning/tree/main/Module-3/4.%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20Square)
 5. [Класс Stick](https://github.com/konsilerinos/CSharp-learning/tree/main/Module-3/5.%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20Stick)
 
-![image](https://user-images.githubusercontent.com/78896451/152150660-78454b6a-d80d-47a6-a420-1cf2799cc8cb.png)
+![image](https://user-images.githubusercontent.com/78896451/152675244-b0e3651e-8d36-4979-90ca-27ff0f66cd2c.png)
 
 ### ©️ Konsilerinos
